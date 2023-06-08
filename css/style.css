@@ -959,3 +959,75 @@ a {
     text-decoration: none;
     outline: none !important;
 }
+/* Small devices (phones) */
+@media only screen and (max-width: 600px) {
+    /* Modify the styles for small screens here */
+    body {
+      font-size: 12px;
+    }
+  
+    /* Example: Adjust the font size and margins for h1 */
+    h1 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  
+    /* Example: Hide the contact_bt class on small screens */
+    .contact_bt {
+      display: none;
+    }
+    .about_bt a {
+        width: 50%;
+        float: left;
+        font-size: 12px;
+        color: #ffffff;
+        border-radius: 5px;
+        background-color: #E41E2F;
+        height: 60px;
+        font-weight: bold;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        text-align: center;
+        padding-top: 12px;
+        display: inline-block;
+    }
+  }
+  
+  /* Medium devices (tablets) */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Modify the styles for medium screens here */
+    body {
+      font-size: 14px;
+    }
+  
+    /* Example: Adjust the font size and margins for h1 */
+    h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    /* Example: Reduce the padding for the contact_bt class on medium screens */
+    .contact_bt {
+      padding: 8px 20px;
+    }
+  }
+  
+  /* Large devices (desktops) */
+  @media only screen and (min-width: 1025px) {
+    /* Modify the styles for large screens here */
+    body {
+      font-size: 16px;
+    }
+  
+    /* Example: Adjust the font size and margins for h1 */
+    h1 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+  
+    /* Example: Increase the padding for the contact_bt class on large screens */
+    .contact_bt {
+      padding: 10px 25px;
+    }
+  }
+  
